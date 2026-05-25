@@ -22,3 +22,4 @@ Thumbs.db
 
 # ignore env config file
 config/cloudinary_env.js
+

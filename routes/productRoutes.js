@@ -1,7 +1,7 @@
 import express from "express";
 
 import Product
-  from "../models/product.js";
+  from "../models/Product.js";
 
 import {
   protect,
