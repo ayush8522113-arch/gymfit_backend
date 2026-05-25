@@ -28,7 +28,12 @@ connectDB();
 const app = express();
 
 /* MIDDLEWARE */
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://gymfit-frontenda.vercel.app",
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
