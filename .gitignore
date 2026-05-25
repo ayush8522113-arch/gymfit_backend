@@ -23,6 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+
 node_modules/
 .env
-/cloudinary_env.js
+
+config/cloudinary_env.js
